@@ -10,6 +10,9 @@ describe('IndexController', () => {
 
         IndexController(request as Request, response as unknown as Response);
 
-        expect(response.json).toBeCalledWith(['ok']);
+        expect(response.json).toBeCalledWith({
+            status: 'ok',
+            timestamp: new Date().toDateString(),
+        });
     });
 });
