@@ -1,5 +1,5 @@
-import { IndexController } from '../../src/controllers/IndexController';
 import { Request, Response } from 'express';
+import { IndexController } from '../../src/controllers/IndexController';
 
 describe('IndexController', () => {
     it('should respond as expected', () => {

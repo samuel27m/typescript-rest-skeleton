@@ -12,6 +12,6 @@
             "port": 9229,
             "restart": true,
             "cwd": "${workspaceRoot}"
-          }
+        }
     ]
 }
